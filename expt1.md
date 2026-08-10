@@ -34,15 +34,11 @@ Open **AccessData FTK Imager 4.7.1.2**.
 
 Navigate to the option for creating a disk image.
 
-![Open FTK Imager](screenshots/1.png)
 
 ### Step 2: Select Evidence Source
 
 Select **Physical Drive** and click **Next**.
 
-![Select Source](screenshots/2.png)
-
-### Step 3: Select Physical Drive
 
 Select the physical drive that needs to be acquired.
 
@@ -52,13 +48,13 @@ The device used in this experiment was:
 
 Click **Finish**.
 
-![Select Drive](screenshots/3.png)
+
 
 ### Step 4: Select Image Type
 
 Select **Raw (dd)** and click **Next**.
 
-![Select Image Type](screenshots/4.png)
+
 
 ### Step 5: Enter Evidence Information
 
@@ -67,12 +63,12 @@ The following evidence information was entered:
 - Case Number: 1
 - Evidence Number: 1
 - Unique Description: DF
-- Examiner: SARATH KATURI
+- Examiner: koushik
 - Notes: EXP 1
 
 Click **Next**.
 
-![Evidence Information](screenshots/5.png)
+
 
 ### Step 6: Select Image Destination
 
@@ -88,7 +84,6 @@ Image Fragment Size:
 
 `0 MB`
 
-![Image Destination](screenshots/6.png)
 
 ### Step 7: Create Image
 
@@ -98,13 +93,13 @@ The option **Verify images after they are created** was selected.
 
 Click **Start** to begin the acquisition.
 
-![Create Image](screenshots/7.png)
+
 
 ### Step 8: Image Acquisition
 
 FTK Imager started creating the forensic image from the physical drive.
 
-![Creating Image](screenshots/8.png)
+
 
 ### Step 9: Image Verification
 
@@ -112,7 +107,6 @@ After acquisition, FTK Imager verified the created forensic image.
 
 The verification process checks the integrity of the acquired image using hash values.
 
-![Image Verification](screenshots/9.png)
 
 ### Step 10: Verification Result
 
@@ -122,7 +116,7 @@ The verification result showed:
 - SHA1 Verify Result: **Match**
 - Bad Blocks: **No bad blocks found in image**
 
-![Verification Results](screenshots/10.png)
+
 
 ### Step 11: Image Summary
 
@@ -137,7 +131,7 @@ Important information included:
 - Sector Count: 121061376
 - Bytes per Sector: 512
 
-![Image Summary](screenshots/11.png)
+
 
 ### Step 12: Hash Verification
 
@@ -153,7 +147,6 @@ The image summary showed that the computed and reported hash values matched.
 
 Both verification results were **Match**.
 
-![Hash Verification](screenshots/12.png)
 
 ## Result
 
